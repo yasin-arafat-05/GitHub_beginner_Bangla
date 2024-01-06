@@ -55,3 +55,82 @@ Git commit command দিব দেন i বাটন প্রেস করে 
 </p>
 
 -->
+
+<br><br>
+
+# Basic Command:
+
+1. **`git init`**
+   - *Usage:* Initializes a new Git repository in the current directory.
+
+2. **`git clone <repository_url>`**
+   - *Usage:* Creates a copy of a remote repository on your local machine.
+
+3. **`git git add <filename> ` or `git git add .`**
+   - *Usage:* Adds changes to the staging area. The first form adds specific files, and the second form adds all changes.
+
+4. **`git git commit -m "commit message"`**
+   - *Usage:* Commits the changes in the staging area with a descriptive message.
+
+6. **`git status`**
+   - *Usage:* To check the status of your working directory - which files are modified, untracked, or staged.
+
+7. **`git pull`**
+   - *Usage:* Fetches changes from a remote repository and merges them into the current branch.
+
+8. **`git push`**
+   - *Usage:* Pushes committed changes to a remote repository.
+
+9. **`git branch`**
+   - *Usage:* Lists all local branches and indicates the current branch.
+
+10. **`git checkout <branch_name>` or `git switch <branch_name>`**
+   - *Usage:* Switches to the specified branch.
+
+11. **`git merge <branch_name>`**
+    - *Usage:* Merges changes from the specified branch into the current branch.
+
+12. **`git log`**
+    - *Usage:* Shows the commit history.
+
+13. **`git diff`**
+    - *Usage:* Displays the differences between the working directory and the last commit.
+
+14. **`git remote -v`**
+    - *Usage:* Lists the remote repositories associated with the current repository.
+
+15. **`git fetch`**
+    - *Usage:* Retrieves changes from a remote repository but does not merge them into the local branch.
+
+16. **`git stash`**
+    - *Usage:* Temporarily saves changes that are not ready to be committed, allowing you to switch branches.
+
+17. **`git remote add <remote_name> <remote_url>`**
+    - *Usage:* Adds a remote repository with the specified name and URL.
+
+18. **`git remote remove <remote_name>`**
+    - *Usage:* Removes the remote repository with the specified name.
+
+19. **`git tag`**
+    - *Usage:* Lists all tags in the repository.
+
+20. **`git pull origin <branch_name>`**
+    - *Usage:* Fetches changes from the remote repository and merges them into the specified branch.
+
+21. **`git push origin <branch_name>`**
+    - *Usage:* Pushes committed changes to the specified branch of the remote repository.
+
+22. **`git branch -d <branch_name>`**
+    - *Usage:* Deletes the specified local branch.
+
+23. **`git log --oneline`**
+    - *Usage:* Displays a compact, one-line representation of the commit history.
+
+24. **`git reset <filename>`**
+    - *Usage:* Unstages the changes for the specified file while keeping the modifications in the working directory.
+
+25. **`git config --global user.name "Your Name"`**
+    - *Usage:* Sets your global Git username.
+
+26. **`git config --global user.email "your.email@example.com"`**
+    - *Usage:* Sets your global Git email.
